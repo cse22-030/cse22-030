@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<meta http-equiv="X-UA Compatible" content="IE=edge">
+		<meta name="author" content= "Lawrence Bray">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name= "description" content= "Home of Warner Bros Movies, TV Shows and Video Games including Harry Potter, DC Comics and more!">
+  <title>WarnerBros.com | Feedback</title>
+  <link rel="icon" href="Warner_Bros._(2019)_logo.svg.png"
+		type="image/x-icon">
+		
+		<style>
+			* {
+	padding: 0px;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-weight:none;
+}
+html body{
+	top:80px;
+	font-family: Rockwell Condensed;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to right, #000, #000035);
+	background-size: 100%;
+	background-position: absolute;
+	position: relative;
+	display: flex;
+  flex-direction: column;
+      
+     
+}
+nav img{
+	width: 70px;
+	height: 75px;
+	padding: 3px;
+	margin: 3px 80px;
+	}
+header {
+  position: relative;
+}
+header img {
+  display: block;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 35px;
+}
+section .button{
+	display: flex;
+	position:absolute;
+	top:375px;
+	left:27%;
+	border-radius:30%;
+	height:50px;
+	width:100px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid white;
+	justify-content: center;
+	color:white;
+	align-items:center;
+	
+}
+section{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+}
+nav{
+	background: black;
+	height: 80px;
+	position: fixed;
+	z-index:9999;
+	width:100%;
+	top:0;
+}
+ ul{
+	float: right;
+	margin-right: 80px;
+	
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	
+}
+nav ul li a{
+	color: white;
+	filter: brightness(50%);
+	font-weight: bold;
+	padding-right: 55px;		
+}
+nav a:hover{
+	filter: brightness(100%);
+	transition: 0.3s;	
+}
+nav a.active {
+  filter:brightness(100%);
+  color: white;
+}
+nav img:hover{
+	width:73px;
+	height:78px;
+	transition: .3s;
+}
+section .button:hover{
+	background-color:white;
+	text-align:center;
+	border: 3px solid #000040; 
+	color:#000020;
+	
+}
+p{
+	color:white;
+	font-size:11pt;
+	margin-left:260px;
+	font-family:Daytona Condensed Light;
+}
+h1{
+	color:white;
+	font-size: 48pt;
+margin-top: 50px;	
+margin-left: 260px;
+}
+form{
+margin-top: 38px;
+
+}
+form {
+margin-left:260px;
+}
+label{
+color:white;
+display: block;
+margin-bottom: 5px;
+
+}
+input {
+width: 500px;
+height: 50px;
+border-radius:10px;
+margin-bottom:30px;
+font-size:12pt;
+}
+textarea{
+width: 500px;
+height:200px;
+border-radius:10px;
+margin-bottom:30px;
+}
+button{
+display:block;
+	border-radius:30px;
+	height:50px;
+	width:100px;
+	
+	border: 1px solid white;
+	justify-content: center;
+	color:white;
+	align-items:center;
+}
+button:hover{
+ background-color:white;
+	text-align:center;
+	border: 3px solid #000040; 
+	color:#000020;
+}
+.image {
+  transition: filter 0.4s ease;
+  filter: brightness(65%);
+}
+
+.image:hover {
+  filter: brightness(100%);
+
+}
+footer{
+	background: black;
+	height:80px;
+	bottom:0;
+	width:100%;
+	
+}
+footer img{
+	
+	height:30px;
+	width:30px;
+	margin-left:20px;
+	margin-top:30px;
+	margin-right:20px;
+	display:inline-block;
+}
+footer p {
+	color:white;
+	font-size: 10px;
+	text-align:center;
+	
+}
+
+
+		</style>
+</head>
+<body>
+	<nav>
+		
+			<a href="index.html"><img src="Warner_Bros._(2020)_logo.svg.png"></a>
+				<ul>		
+				<li><a href="movies.html">MOVIES</a>
+				<li><a href="tvshows.html">TV SHOWS</a>
+				<li><a href="games&apps.html">GAMES & APPS</a>
+				<li><a href="brands.html">BRANDS</a>
+				<li><a href="collections.html">COLLECTIONS</a>
+				<li><a href="pressreleases.html">PRESS RELEASES</a>
+				<li><a href="shop.html">SHOP</a>
+				<!--<input type"text" placeholder="Search">
+				<div class="button">
+				</div>-->
+				</ul>
+			</nav>
+  <h1>Feedback</h1>
+  <br>
+  <p>Have questions and need to talk to us? Please complete this form and we will get in touch as soon as possible.</p>
+  <br>
+  <form action="submit_feedback.php" method="POST">
+    <label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+<footer>
+		<img style="filter:brightness(100%);" src="Warner_Bros._(2020)_logo.svg.png" class="image"></a>
+		<a href="https://www.instagram.com/warnerbrosentertainment/"><img src="white-instagram-logo-png-transparent.png"class="image"></a>
+		<a href="https://www.facebook.com/warnerbrosent/"><img src="facebook logo.png" class="image"></a>
+		<a href="https://twitter.com/Warnerbros/"><img src="twitter.png" class="image"></a>
+		<a href="feedback.html">feedback</a>
+	</footer>
+</html>

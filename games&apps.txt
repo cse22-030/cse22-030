@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA Compatible" content="IE=edge">
+		<meta name="author" content= "Lawrence Bray">
+		<meta name= "description" content= "Home of Warner Bros Movies, TV Shows and Video Games including Harry Potter, DC Comics and more!">
+		<title>WarnerBros.com | Games & Apps</title>
+		<link rel="icon" href="Warner_Bros._(2019)_logo.svg.png"
+		type="image/x-icon">
+		<link rel="stylesheet" href="presentationMovies.css">
+	</head>
+	<body>
+		<nav>
+			<li><a href="index.html"><img src="Warner_Bros._(2020)_logo.svg.png"></a>
+			<ul>	
+				<li><a href="movies.html">MOVIES</a>
+					<li><a href="tvshows.html">TV SHOWS</a>
+					<li><a href="games&apps.html">GAMES & APPS</a>
+					<li><a href="brands.html">BRANDS</a>
+					<li><a href="collections.html">COLLECTIONS</a>
+					<li><a href="pressreleases.html">PRESS RELEASES</a>
+					<li><a href="shop.html">SHOP</a>
+				</ul>
+			</nav>
+			<header>
+			<img src="shazam fury.jpg" alt="shazam! fury of the gods">
+			
+			<section>
+			<h1>SHAZAM! FURY OF THE GODS</h1>
+			<p>Duration: 130min</p>
+			<br>
+			<p>Genre: Fantasy, Comedy, Action</p>
+			<a href="https://youtu.be/AIc671o9yCI" class="button">Watch Trailer</a>
+			</section>
+			</header>
+			
+		<article>
+			<h2>WHAT'S HOT</h2>
+			<figure>
+				<a href="index.html"><img src="shazam.jpg"class="image"></a>
+				<figcaption>SHAZAM! FURY OF THE GODS</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="The batman.jpg" class="image"></a>
+				<figcaption>The Batman</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="the matrix resurrections movie.jpg" class="image"></a>
+				<figcaption>The Matrix Resurrections</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="king richard.jpg" class="image"></a>
+				<figcaption>King Richard</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="black adam.jpg" class="image"></a>
+				<figcaption>Black Adam</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="house party.jpg" class="image"></a>
+				<figcaption>House Party</figcaption>
+				</figure>
+		</article>
+		<br>
+		<article>
+			<h2>NEW RELEASES TO OWN</h2>
+			<figure>
+				<a href="index.html"><img src="godzilla vs kong.jpg" class="image"></a>
+				<figcaption>Godzilla vs kong</figcaption>
+			</figure>
+			<figure>
+				<a href="index.html"><img src="tom and jerry.jpg" class="image"></a>
+				<figcaption>Tom & Jerry</figcaption>
+			</figure>
+			<figure>
+				<a href="index.html"><img src="wonder woman.jpg" class="image"></a>
+				<figcaption>Wonder Woman 1984</figcaption>
+			</figure>
+			<figure>
+				<a href="index.html"><img src="judas and the black messiah.jpg" class="image"></a>
+				<figcaption>Judas and the Black Messiah</figcaption>
+			</figure>
+			<figure>
+				<a href="index.html"><img src="wrath of man.jpg" class="image"></a>
+				<figcaption>Wrath of Man</figcaption>
+			</figure>
+			<figure>
+				<a href="index.html"><img src="mortal kombat.jpg" class="image"></a>
+				<figcaption>Mortal Kombat (2021)</figcaption>
+			</figure>
+		</article>
+		<br>
+		<article>
+			<h2>MOVIE NIGHT FAVOURITES</h2>
+			<figure>
+				<a href="index.html"><img src="gravity.jpg" class="image"></a>
+				<figcaption>Gravity</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="dark knight.jpg" class="image"></a>
+				<figcaption>The Dark Knight Rises</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="batman v superman.jpg" class="image"></a>
+				<figcaption>Batman v Superman: Dawn of Justice</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="the lego movie.jpg" class="image"></a>
+				<figcaption>The Lego Movie</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="inception.jpg" class="image"></a>
+				<figcaption>Inception</figcaption>
+				</figure>
+				<figure>
+				<a href="index.html"><img src="space jam.jpg" class="image"></a>
+				<figcaption>Space Jam: A new Legacy</figcaption>
+				</figure>
+		</article>
+	</body>
+	<footer>
+		<a href="index.html"><img src="Warner_Bros._(2020)_logo.svg.png" class="image"></a>
+		<a href="https://www.instagram.com/warnerbrosentertainment/"><img src="white-instagram-logo-png-transparent.png" class="image"></a>
+		<a href="https://www.facebook.com/warnerbrosent/"><img src="facebook logo.png" class="image"></a>
+		<a href="https://www.youtube.com/user/WarnerBrosPictures/"><img src="youtube logo.png" class="image"></a>
+		
+	</footer>
+</html>  
