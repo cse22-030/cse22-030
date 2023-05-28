@@ -5,8 +5,6 @@
 	list-style: none;
 	box-sizing: border-box;
 	font-weight:none;
-	background-color: transparent;
-	
 }
 body{
 	top:80px;
@@ -17,7 +15,6 @@ body{
 	background-size: 100%;
 	background-position: absolute;
 	position: relative;
-	
 }
 nav img{
 	width: 70px;
@@ -38,8 +35,8 @@ section .button{
 	display: flex;
 	position:absolute;
 	top:375px;
-	left:27%;
-	border-radius:30px;
+	left:23%;
+	border-radius:30%;
 	height:50px;
 	width:100px;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -99,7 +96,7 @@ nav img:hover{
 section .button:hover{
 	background-color:white;
 	text-align:center;
-	
+	border: 3px solid #000040; 
 	color:#000020;
 	
 }
@@ -131,7 +128,7 @@ h2{
 }
 article{
 	margin-bottom:10px;
-	height: 450px;
+	height: 850px;
 	margin-right: 10px;
 	margin-left: 10px;
 	background: linear-gradient(to right, rgba(0,0,0,0.97),rgba(0,0,20,0.7));
@@ -173,7 +170,6 @@ footer{
 	background: black;
 	height:80px;
 	bottom:0;
-	width:100%;
 	
 }
 footer img{
@@ -185,7 +181,6 @@ footer img{
 	margin-right:20px;
 	display:inline-block;
 }
-
 footer a {
 	filter:brightness(65%);
 	transition:0.4s ease;
@@ -196,3 +191,4 @@ footer a {
 footer a:hover{
 	filter:brightness(100%);
 }
+

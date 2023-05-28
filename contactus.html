@@ -40,38 +40,7 @@ nav img{
 	padding: 3px;
 	margin: 3px 80px;
 	}
-header {
-  position: relative;
-}
-header img {
-  display: block;
-  width: 100%;
-  height: 450px;
-  margin-bottom: 35px;
-}
-section .button{
-	display: flex;
-	position:absolute;
-	top:375px;
-	left:27%;
-	border-radius:30%;
-	height:50px;
-	width:100px;
-	background-color: rgba(0, 0, 0, 0.2);
-	border: 1px solid white;
-	justify-content: center;
-	color:white;
-	align-items:center;
-	
-}
-section{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
-}
+
 nav{
 	background: black;
 	height: 80px;
@@ -110,13 +79,7 @@ nav img:hover{
 	height:78px;
 	transition: .3s;
 }
-section .button:hover{
-	background-color:white;
-	text-align:center;
-	border: 3px solid #000040; 
-	color:#000020;
-	
-}
+
 p{
 	color:white;
 	font-size:11pt;
@@ -146,25 +109,25 @@ input {
 width: 500px;
 height: 50px;
 border-radius:10px;
-margin-bottom:30px;
+margin-bottom:25px;
 font-size:12pt;
 }
 textarea{
 width: 500px;
 height:150px;
 border-radius:10px;
-margin-bottom:30px;
+margin-bottom:25px;
 }
 button{
-display:inline;
+	display: block;
 	border-radius:30px;
 	height:50px;
 	width:100px;
-	
-	border: 1px solid blue;
-	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid white;
 	color:white;
 	align-items:center;
+	
 }
 button:hover{
  background-color:white;
@@ -184,9 +147,19 @@ button:hover{
 footer{
 	background: black;
 	height:80px;
-	bottom:0;
+	margin-top:15px;
 	width:100%;
 	
+}
+footer a {
+	filter:brightness(65%);
+	transition:0.4s ease;
+	color:white;
+	font-size: 23px;
+	font-family:Century Schoolbook;
+}
+footer a:hover{
+	filter:brightness(100%);
 }
 footer img{
 	
@@ -197,12 +170,7 @@ footer img{
 	margin-right:20px;
 	display:inline-block;
 }
-footer p {
-	color:white;
-	font-size: 10px;
-	text-align:center;
-	
-}
+
 
 
 		</style>
@@ -217,9 +185,6 @@ footer p {
 				<li><a href="games&apps.html">GAMES & APPS</a>
 				<li><a href="brands.html">BRANDS</a>
 				<li><a href="collections.html">COLLECTIONS</a>
-				<!--<input type"text" placeholder="Search">
-				<div class="button">
-				</div>-->
 				</ul>
 			</nav>
   <h1>Contact us</h1>
@@ -244,6 +209,6 @@ footer p {
 		<a href="https://www.instagram.com/warnerbrosentertainment/"><img src="white-instagram-logo-png-transparent.png"class="image"></a>
 		<a href="https://www.facebook.com/warnerbrosent/"><img src="facebook logo.png" class="image"></a>
 		<a href="https://twitter.com/Warnerbros/"><img src="twitter.png" class="image"></a>
-		<a href="feedback.html">contact us</a>
+		<a href="contactus.html">Contact us</a>
 	</footer>
 </html>
